@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+
+}
+.row{
+	background-image: url(Images/sea-gb15367e58_1920.jpg);
+	margin: 0px;
+	max-width: 100%;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	text-align: center;
+	padding: 0 20px;
+	height: 100vh;
+	align-items: center;
+	line-height: 1.6;
+}
+.button{
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px; 
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	font-size: 18px;
+}
+.button:hover{
+	background-color: #CBA07B;
+}
+.first,.col1,.col3{
+	background-color: #CBA07B;
+	line-height: 1.6;
+}
+.second,.col2{
+	color: #CBA07B;
+	line-height: 1.6;
+}
+#col{
+	display: flex;
+}
+

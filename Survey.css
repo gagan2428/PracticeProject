@@ -1,0 +1,50 @@
+body{
+	background-color: skyblue;
+	margin: 0;
+	width: auto;
+}
+h1,h2{
+	text-align: center;
+}
+h1{
+	font-style: bold;
+	font-size:3em;
+}
+div{
+	background-color:  white;
+	border-radius: 25px;
+	padding:10px;
+	margin: auto;
+	width: 90%; 	
+}
+button{
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+}
+#name,#email,#scale,#options,#Day1,#Day2,#Day3,#Day4,#Emo1,#Emo2,#Emo3,#Emo4,#Emo5,#Exp{
+	border:2px solid grey;
+	border-radius:5px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;	
+}
+
+#submit{
+	text-align: center;
+	color: white;
+}
+
+.grid-conatiner{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	
+}
+select{
+	padding: 20px;
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7{
+float: center;
+	
+}

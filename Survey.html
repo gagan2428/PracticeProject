@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Survey.css">
+	<title>Survey Form</title>
+</head>
+<body>
+	<h1>Good Vibes Form</h1>
+	<div class="grid-container">
+		<h2>Tell us something positive that happened to you today.</h2>
+			<div class="row1">
+				<form action="">
+				<label for="name">Name:</label>
+				<input type="text" id="name" value="Enter your name"><br>
+			</div>
+			<div class="row2">
+				<label for="email">Email:</label>
+				<input type="text" id="email" value="Enter your email"><br>
+			</div>
+			<div class="row3">
+				<label for="scale">On a scale of 1-10, how good was it?</label>
+				<input type="number" id="scale" value="Enter a number between 1 and 10" step=1><br>
+			</div>
+			<div class="row4">
+				<label for="options">Where dit it happen?</label>
+				<select name="options" id="options">
+					<option value="At home">At home</option>
+					<option value="On my commute">On my commute</option>
+					<option value="On the street">On the street</option>
+					<option value="At work">At work</option>
+					<option value="Other">Other</option>
+				</select> <br>
+			</div>
+			<div class="row5">
+				<label>At what time of day did it happen?</label>
+					<input type="radio" id="Day1" value="Morning">
+					<label for="Morning">Morning</label><br>
+
+					<input type="radio" id="Day2" value="Evening">
+					<label for="Evening">Evening</label><br>
+
+					<input type="radio" id="Day3" value="Afternoon">
+					<label for="Afternoon">Afternoon</label><br>
+			</div>
+			<div class="row6">
+				<label>What emotions did you experience?(Select all that apply)</label>
+					<input type="checkbox" id="Emo1" value="Excited">
+					<label for="Emo1">Excited</label><br>
+
+					<input type="checkbox" id="Emo2" value="Humbled">
+					<label for="Emo2">Humbled</label><br>
+
+					<input type="checkbox" id="Emo3" value="Elated">
+					<label for="Emo3">Elated</label><br>	
+
+					<input type="checkbox" id="Emo4" value="Loved">
+					<label for="Emo4">Loved</label><br>
+
+					<input type="checkbox" id="Emo5" value="Enthusuastic">
+					<label for="Emo5">Enthusiastic</label><br>
+			</div>
+			<div class="row7">
+				<label for="Exp">Please describe your positive experience.</label><br>
+				<textarea name="Experi" id="Exp" cols="20" rows="5">Enter your experience here...</textarea> </form><br>
+			</div>
+				<button type="submit" id="submit">Submit</button>
+			</form> 
+	</div>
+</body>
+</html>
